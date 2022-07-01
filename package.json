@@ -1,7 +1,7 @@
 {
   "name": "@turbo/eslint-config",
   "description": "eslint-config package",
-  "version": "0.9.9",
+  "version": "0.9.10",
   "license": "UNLICENSED",
   "main": "index.js",
   "files": [
