@@ -1,4 +1,4 @@
-# @turbo/eslint-config package
+# @monke/eslint-config package
 
 ## Package update flow
 

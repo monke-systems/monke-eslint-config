@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/eslint-config",
+  "name": "@monke/eslint-config",
   "description": "eslint-config package",
   "version": "0.9.11",
   "license": "UNLICENSED",
