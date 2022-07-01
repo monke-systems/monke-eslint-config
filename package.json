@@ -1,0 +1,43 @@
+{
+  "name": "@turbo/eslint-config",
+  "description": "eslint-config package",
+  "version": "0.9.8",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "files": [
+    "common.js",
+    "pure-js.js",
+    "typescript.js"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.0.0",
+    "@typescript-eslint/parser": ">=5.0.0",
+    "eslint": ">=8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:emcal/sussy-proj/npm-packages/turbo-eslint-config.git"
+  },
+  "bugs": {
+    "url": "git@gitlab.com:emcal/sussy-proj/npm-packages/turbo-eslint-config.git/issues"
+  },
+  "homepage": "git@gitlab.com:emcal/sussy-proj/npm-packages/turbo-eslint-config.git/#readme",
+  "devDependencies": {
+    "eslint": "8.18.0"
+  }
+}

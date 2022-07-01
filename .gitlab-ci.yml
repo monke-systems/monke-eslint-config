@@ -1,0 +1,9 @@
+include:
+  - project: emcal/sussy-proj/ci-configs
+    ref: init
+    file: javascript/js-publish-package.yml
+
+stages:
+  - install-deps
+  - validate
+  - publish-package
