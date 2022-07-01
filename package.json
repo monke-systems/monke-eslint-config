@@ -36,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:emcal/sussy-proj/npm-packages/turbo-eslint-config.git"
+    "url": "https://github.com/monke-systems/monke-eslint-config"
   },
   "bugs": {
-    "url": "git@gitlab.com:emcal/sussy-proj/npm-packages/turbo-eslint-config.git/issues"
+    "url": "https://github.com/monke-systems/monke-eslint-config/issues"
   },
-  "homepage": "git@gitlab.com:emcal/sussy-proj/npm-packages/turbo-eslint-config.git/#readme",
+  "homepage": "https://github.com/monke-systems/monke-eslint-config/#readme",
   "devDependencies": {
     "eslint": "8.18.0"
   }

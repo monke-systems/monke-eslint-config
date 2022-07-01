@@ -1,5 +1,29 @@
 # @monke/eslint-config package
 
+## Install
+
+```bash
+npm i -D @monkee/eslint-config
+```
+
+## Usage in typescript projects
+
+.eslintrc.yml
+
+```yml
+extends:
+  - '@monkee/eslint-config/typescript'
+```
+
+## Usage in javascript projects
+
+.eslintrc.yml
+
+```yml
+extends:
+  - '@monkee/eslint-config/pure-js'
+```
+
 ## Package update flow
 
 Package publishing only available via CI jobs.
