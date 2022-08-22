@@ -1,7 +1,7 @@
 {
   "name": "@monkee/eslint-config",
   "description": "eslint-config package",
-  "version": "0.9.15",
+  "version": "0.9.16",
   "license": "UNLICENSED",
   "main": "index.js",
   "private": false,
