@@ -118,6 +118,12 @@ module.exports = {
     '@typescript-eslint/require-await': 'error',
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     'no-use-before-define': 'off',
+    '@typescript-eslint/no-inferrable-types': [
+      'error',
+      {
+        ignoreProperties: true,
+      },
+    ],
     '@typescript-eslint/no-use-before-define': [
       'error',
       {
