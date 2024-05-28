@@ -13,6 +13,8 @@ npm i -D @monkee/eslint-config
 ```yml
 extends:
   - '@monkee/eslint-config/typescript'
+parserOptions:
+  project: ./tsconfig.json # or specify your ts config path
 ```
 
 ## Usage in javascript projects
