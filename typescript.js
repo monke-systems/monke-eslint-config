@@ -69,7 +69,7 @@ module.exports = {
       },
       {
         selector: ['enum', 'enumMember'],
-        format: ['UPPER_CASE'],
+        format: ['PascalCase'],
       },
       {
         selector: 'interface',

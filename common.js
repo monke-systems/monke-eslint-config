@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['import', 'prettier'],
   rules: {
-    curly: [0],
+    curly: ['error'],
     'lines-around-comment': [0],
     'max-len': [0],
     'no-confusing-arrow': [0],
@@ -216,14 +216,7 @@ module.exports = {
         exceptAfterSingleLine: true,
       },
     ],
-    'new-cap': [
-      'error',
-      {
-        newIsCap: true,
-        capIsNew: false,
-        properties: true,
-      },
-    ],
+    'new-cap': [0],
     'no-array-constructor': ['error'],
     'no-caller': ['error'],
     'no-case-declarations': ['error'],
